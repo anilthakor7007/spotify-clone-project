@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="/Assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- body area -->
+    <div class="main">
+
+        <!-- sidebar area -->
+        <div class="sidebar">
+
+            <!-- navigation part -->
+            <div class="nav">
+                <div class="nav_option"  style="opacity:1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" >Home</a>
+                </div>
+
+                <div class="nav_option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+
+            </div>
+
+            <!-- library part -->
+            <div class="library">
+                <!-- heading and icons -->
+
+                <div class="options">
+                    <div class="lib-option nav_option">
+                        <img src="/Assets/library_icon.png" alt="library icon">
+                        <a href="#">Your Library</a>
+
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+                </div>
+
+                <!-- boxes part -->
+                <div class="lib_boxes">
+
+                    <!-- box1 -->
+                    <div class="box b1">
+                        <p class="box_p1">Create your first playlist</p>
+                        <p class="box_p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <!-- box2 -->
+                    <div class="box b2">
+                        <p class="box_p1">Let's find some podcasts to follow</p>
+                        <p class="box_p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                    <div class="blank_box" style="height: 300px;">
+                       
+                      
+                    </div>
+                </div>
+
+            </div>
+        </div>
+   
+
+  
+        <!-- content area -->
+    <div class="main_content">
+
+            <!-- sticky nav -->
+        <div class="sticky_nav">
+
+            <div class="sticky_nav_icons">
+                <button class="round"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="round hide"><i class="fa-solid fa-chevron-right "></i></button>
+            </div>
+            <div class="sticky_nav_options">
+                <button class="badgeE hide">Explore Premium</button>
+                <button class="badgeI"><i class="fa-regular fa-circle-down"></i> Install App</button>
+               <button class="round"><i class="fa-regular fa-user"></i></button>
+            </div>
+
+        </div>
+
+            <!-- cards -->
+            <div class="cards">
+                <!-- section 0 -->
+                <h2 class="heading">Recently played</h2>
+                <div class="card_container">
+                    <div class="card">
+                        <img src="/card images/card2img.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Mahiye Jinna Sona</a></p>
+                        <p class="card_info"><a href="#">Darshan Raval</a></p>
+                    </div>
+                </div>
+                
+                <!-- section 1 -->
+            <h2 class="heading">Spotify original & exclusive shows</h2>
+            <div class="card_container">
+
+                    <div class="card">
+                        <img src="/card images/crd2.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">True Story Bro! with triggerd...</a></p>
+                        <p class="card_info"><a href="#">Spotify</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd3.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">The Horror Show</a></p>
+                        <p class="card_info"><a href="#">TMV Studios</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd4.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Chanakya Niti</a></p>
+                        <p class="card_info"><a href="#">Kiran Chavda</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd5.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Horror Time Scary</a></p>
+                        <p class="card_info"><a href="#">Horror Time</a></p>
+                    </div>
+
+                </div>
+
+                <!-- section 2 -->
+            <h2 class="heading">Trending now</h2>
+            <div class="card_container">
+
+                    <div class="card">
+                        <img src="/card images/crd6.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Mahiye Jinna Sona</a></p>
+                        <p class="card_info"><a href="#">Darshan Raval</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd7.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Tum Kya Mile From ..."</a></p>
+                        <p class="card_info"><a href="#">Pritam, Arijit, Shreya Goshal</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd8.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Yaar Ka Satya H..</a></p>
+                        <p class="card_info"><a href="#">B Praak, Jaani</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd9.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Le Aaunga</a></p>
+                        <p class="card_info"><a href="#">Arijit Singh</a></p>
+                    </div>
+
+                </div>
+
+                <!-- section 3 -->
+            <h2 class="heading">Try something else</h2>
+            <div class="card_container">
+
+                    <div class="card">
+                        <img src="/card images/crd10.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Hot Hits Hindi</a></p>
+                        <p class="card_info"><a href="#">Spotify</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd11.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">All Out 00's Hindi</a></p>
+                        <p class="card_info"><a href="#">Spotify</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd12.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Top 50 Global</a></p>
+                        <p class="card_info"><a href="#">Spotify</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd13.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Hot Hits Punjabi</a></p>
+                        <p class="card_info"><a href="#">Spotify</a></p>
+                    </div>
+
+                </div>
+
+                  <!-- section 4 -->
+            <h2 class="heading">Featured Charts</h2>
+            <div class="card_container">
+
+                    <div class="card">
+                        <img src="/card images/crd14.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Top Songs Global</a></p>
+                        <p class="card_info"><a href="#">Weekly Update of..</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd15.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Top Songs India</a></p>
+                        <p class="card_info"><a href="#">Weekly Update of..</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd16.jpg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Top 50 India</a></p>
+                        <p class="card_info"><a href="#">Weekly Update of..</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd17.jpg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Weekly Update of..irul 50 Global</a></p>
+                        <p class="card_info"><a href="#">Weekly Update of..</a></p>
+                    </div>
+
+                </div>
+
+
+                  <!-- section 5 -->
+            <h2 class="heading">Shows to try</h2>
+            <div class="card_container">
+
+                    <div class="card">
+                        <img src="/card images/crd18.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">The Joe Rogan E..</a></p>
+                        <p class="card_info"><a href="#">Joy Rogan</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd19.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">The Ranveer Show</a></p>
+                        <p class="card_info"><a href="#">BeerBiceps</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd20.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">Pretakotha</a></p>
+                        <p class="card_info"><a href="#">Gaurab Tapadar</a></p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/card images/crd21.jpeg" alt="song_image" class="card_img">
+                        <p class="card_title "><a class="box_p1" href="#">The Mythpat Poadcast</a></p>
+                        <p class="card_info"><a href="#">Spotify Studio</a></p>
+
+                        
+                    </div>
+
+                    <!-- footer -->
+                    <div class="footer">
+                        <div class="company">
+                            <p class="box_p1">Company</p>
+                            <p class="footer_links"><a href="#">About</a></p>
+                            <p class="footer_links"><a href="#">Jobs</a></p>
+                            <p class="footer_links"><a href="#">For The Record</a></p>
+                        
+                        </div>
+                        <div class="communities">
+                            <p class="box_p1">Communities</p>
+                            <p class="footer_links"><a href="#">For Artists</a></p>
+                            <p class="footer_links"><a href="#">Developers</a></p>
+                            <p class="footer_links"><a href="#">Advertising</a></p>
+                            <p class="footer_links"><a href="#">Investers</a></p>
+                            <p class="footer_links"><a href="#">Vendors</a></p>
+                            <p class="footer_links"><a href="#">Spotify For Work</a></p>
+                        
+                        </div>
+                        <div class="usful_links">
+                            <p class="box_p1">Usful links</p>
+                            <p class="footer_links"><a href="#">Support</a></p>
+                            <p class="footer_links"><a href="#">Free Mobile App</a></p>
+                        </div>
+                        <div class="socials">
+                            <button class="insta social_handle"><i class="fa-brands fa-instagram"></i></button>
+                            <button class="tweeter social_handle"><i class="fa-brands fa-twitter"></i></button>
+                            <button class="fb social_handle"><i class="fa-brands fa-facebook"></i></button>
+                        </div>
+                    </div>
+
+                     <!-- footer 2  -->
+                <div class="footer2">
+                    <div class="navigation_links">
+                        <ul>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Privacy Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookies</a></li>
+                            <li><a href="#">About Ads</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright"><p>&copy; 2023 Spotify AB</p></div>
+                </div>
+
+       
+                </div>
+
+               
+
+            </div>
+
+           
+     </div>
+               
+           
+   
+
+        <!-- music player area -->
+        <div class="music_player">
+
+            <div class="album">
+                <div class="album_bar">
+                    <img src="/album images/card2img.jpeg" alt="player controls" class="album_img"  >
+                    <div>
+                        <p class="album_title">Mahiye Jinna Sona</p>
+                        <p class="auther_name">Darshan Raval</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="/album images/album_icon2.png" alt="player controls" class="album_icon">
+                    
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="player_controls">
+                    <img src="/player icons/player_icon1.png" alt="player controls" class="player_control_icon">
+                    <img src="/player icons/player_icon2.png" alt="player controls" class="player_control_icon">
+                    <img src="/player icons/player_icon3.png" alt="player controls" class="player_control_icon" style="height: 2rem; opacity: 1;">
+                    <img src="/player icons/player_icon4.png" alt="player controls" class="player_control_icon">
+                    <img src="/player icons/player_icon5.png" alt="player controls" class="player_control_icon">
+                </div>
+
+                <div class="playe_backbar">
+                    <span class="currt_time">00:00</span>
+                    <input type="range" name="" id="" min="0" max="100" step="1" class="progress_bar">
+                    <span class="totl_time">3:33</span>
+                </div>
+            </div>
+
+
+            <div class="controls">
+
+                <div class="player_controls">
+                    <img src="/controls images/controls_icon1.png" alt="player controls" class="player_control_img">
+                    <img src="/controls images/controls_icon2.png" alt="player controls" class="player_control_img">
+                    <img src="/controls images/controls_icon3.png" alt="player controls" class="player_control_img" style="height: 1.4rem; opacity: 0.43;" >
+                    <img src="/controls images/controls_icon4.png" alt="player controls" class="player_control_img" style="height: 1.1rem; opacity: 0.43;">
+                    <img src="/controls images/controls_icon5.png" alt="player controls" class="player_control_img">
+                    <input type="range" name="" id="" min="0" max="100" step="1" class="volume_bar">
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    
+</body>
+</html>
